@@ -209,17 +209,13 @@ git stash pop   #恢复现场
 
 
 
+到目前为止，我们完成了代码库的初始化，但代码是在本地，还没有提交到远程服务器，所以关键的来了，要提交到就远程代码服务器，进行以下两步：
 
+git remote add origin 你的远程库地址 // 把本地库与远程库关联   就是你刚刚建的repository 的地址。
 
+如：git@github.com:你的GitHub名称/project-template.git
 
+git push -u origin master // 第一次推送时
 
-
-
-
-
-
-
-1. 111111
-2. 33333
-3. 44
+git push origin master // 第一次推送后，直接使用该命令即可推送修改
 
